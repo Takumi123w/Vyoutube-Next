@@ -53,12 +53,11 @@ private Command sourceDelete = new Command("Delete", Command.ITEM, 3);
     private String customUrl = "http://";
 private Command customOk = new Command("OK", Command.OK, 1);
 private Command customCancel = new Command("Cancel", Command.BACK, 2);
-public static String mainurl = "http://kumia.my.id";
+public static String mainurl = "http://example.com";
 public static String phpdlp = "/ytdlp4.php";
 private String baseUrl = mainurl + phpdlp + "?action=search&query=";
 private static final String[][] SOURCES = {
-    {"YTDLP by TK", "http://kumia.my.id", "/ytdlp.php"},
-    {"YTDLP (Alt) by TK", "http://kumia.my.id", "/ytdlp4.php"}
+    {"Your self host", "http://example.com", "/ytdlp.php"},
 };
 private int sourceIndex = 0;
     private String connectionSuffix = "";
